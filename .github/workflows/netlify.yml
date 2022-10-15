@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: npm install netlify-cli -g
+      - run: npm install --save-dev netlify-cli
       - run: npm netlify -v
     
